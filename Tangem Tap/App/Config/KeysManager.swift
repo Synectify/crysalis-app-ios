@@ -25,7 +25,7 @@ class KeysManager {
         let infuraProjectId: String
     }
     
-    private let keysFileName = "config"
+    private let keysFileName = "config_dev"
     
     private let keys: Keys
     
