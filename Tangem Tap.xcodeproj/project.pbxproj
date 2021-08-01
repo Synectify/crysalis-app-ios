@@ -735,8 +735,14 @@
 		B0FC4AC626302460000444D7 /* AnimKeyPaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FC4A142630245F000444D7 /* AnimKeyPaths.swift */; };
 		B0FC4AC826302460000444D7 /* TangemSdkButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FC4A172630245F000444D7 /* TangemSdkButton.swift */; };
 		B0FF8815264AABCD003E000A /* TokenIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FF8814264AABCD003E000A /* TokenIconView.swift */; };
+		C4CFE2A9CAA7EEE01F9F95FA /* CrysalisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CFE2C67EA6C2F0B482F564 /* CrysalisTests.swift */; };
+		C4CFE4257B7841F666E4530A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4CFE0FFA26B9A04950504B9 /* Assets.xcassets */; };
+		C4CFE463F4664FE402C58B8C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4CFE3ECA346504E2C31E8C9 /* Preview Assets.xcassets */; };
 		C4CFE686C9F62BD707CE057F /* config_dev.json in Resources */ = {isa = PBXBuildFile; fileRef = C4CFE84FD3DBFE4AF6A0FCA7 /* config_dev.json */; };
+		C4CFE68F8C7554BCD7B6578A /* CrysalisApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CFEB4B5B20E37762038CD9 /* CrysalisApp.swift */; };
+		C4CFE8016E565F325F5599E6 /* CrysalisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CFECA7469746B5D32033B8 /* CrysalisUITests.swift */; };
 		C4CFEB8F5629F2A22F8E792D /* issuers.json in Resources */ = {isa = PBXBuildFile; fileRef = C4CFE809F2EB6F694BAB7C72 /* issuers.json */; };
+		C4CFEBFF6A30CCABC0E7921E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CFE5843831DA3BF5C8A92C /* ContentView.swift */; };
 		C4CFEF7D04F5B3B20F6F25C2 /* config_prod.json in Resources */ = {isa = PBXBuildFile; fileRef = C4CFE94EF5FB66A295EE7484 /* config_prod.json */; };
 		E7B877C2D1F9ECC207398075 /* Pods_Tangem_Tap_Tangem_TapUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADB806044AD0786B3B757F4E /* Pods_Tangem_Tap_Tangem_TapUITests.framework */; };
 /* End PBXBuildFile section */
@@ -762,6 +768,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = B0D3600025F26C7400929564;
 			remoteInfo = TangemClip;
+		};
+		C4CFED79899DCA1BDAC1257F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D3F77BA24BF56D800E8695B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4CFEE77754E64305F3ED09E;
+			remoteInfo = Crysalis;
+		};
+		C4CFEE57951A382B1D61C5E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D3F77BA24BF56D800E8695B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4CFEE77754E64305F3ED09E;
+			remoteInfo = Crysalis;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -1545,9 +1565,18 @@
 		B0FF8814264AABCD003E000A /* TokenIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenIconView.swift; sourceTree = "<group>"; };
 		B9F1CD10D9C48557C2894B61 /* Pods-Tangem Tap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tangem Tap.debug.xcconfig"; path = "Target Support Files/Pods-Tangem Tap/Pods-Tangem Tap.debug.xcconfig"; sourceTree = "<group>"; };
 		BD6C9959F53AF1BAC643BEDD /* Pods-Tangem Tap-Tangem TapUITests.firebase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tangem Tap-Tangem TapUITests.firebase.xcconfig"; path = "Target Support Files/Pods-Tangem Tap-Tangem TapUITests/Pods-Tangem Tap-Tangem TapUITests.firebase.xcconfig"; sourceTree = "<group>"; };
+		C4CFE0FFA26B9A04950504B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C4CFE25F431EF3E9E9363B94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		C4CFE2C67EA6C2F0B482F564 /* CrysalisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrysalisTests.swift; sourceTree = "<group>"; };
+		C4CFE3ECA346504E2C31E8C9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C4CFE5843831DA3BF5C8A92C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C4CFE7BD117BA77BF19C4193 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		C4CFE809F2EB6F694BAB7C72 /* issuers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = issuers.json; sourceTree = "<group>"; };
 		C4CFE84FD3DBFE4AF6A0FCA7 /* config_dev.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = config_dev.json; sourceTree = "<group>"; };
 		C4CFE94EF5FB66A295EE7484 /* config_prod.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = config_prod.json; sourceTree = "<group>"; };
+		C4CFEB4B5B20E37762038CD9 /* CrysalisApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrysalisApp.swift; sourceTree = "<group>"; };
+		C4CFECA7469746B5D32033B8 /* CrysalisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrysalisUITests.swift; sourceTree = "<group>"; };
+		C4CFED832F5A2819793BEA8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		F3B96D298A039D2A8811CEF0 /* Pods-Tangem Tap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tangem Tap.release.xcconfig"; path = "Target Support Files/Pods-Tangem Tap/Pods-Tangem Tap.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -1583,6 +1612,27 @@
 			files = (
 				33538FDCAD790724C357BBDB /* Pods_TangemClip.framework in Frameworks */,
 				B0F735A525F78FCC00DD348F /* CoreNFC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4CFE2FD13F6F94EAC46C2EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4CFE4D0B3C8F609F3A76F02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4CFEF49316633D0332C813E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1707,6 +1757,9 @@
 				5D3F77C324BF56D800E8695B /* Products */,
 				BBA154748909F0AB4121528D /* Pods */,
 				2E5061A84512B23CCB5F2E17 /* Frameworks */,
+				C4CFE0D3B54257A957B813A8 /* Crysalis */,
+				C4CFEC15E6B7B6AC89D1728E /* CrysalisTests */,
+				C4CFE98DF9C63886EF0DDCA9 /* CrysalisUITests */,
 			);
 			sourceTree = "<group>";
 		};
@@ -3694,6 +3747,44 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		C4CFE0D3B54257A957B813A8 /* Crysalis */ = {
+			isa = PBXGroup;
+			children = (
+				C4CFED832F5A2819793BEA8C /* Info.plist */,
+				C4CFE0FFA26B9A04950504B9 /* Assets.xcassets */,
+				C4CFE6C764AF424F64AE0F30 /* Preview Content */,
+				C4CFEB4B5B20E37762038CD9 /* CrysalisApp.swift */,
+				C4CFE5843831DA3BF5C8A92C /* ContentView.swift */,
+			);
+			path = Crysalis;
+			sourceTree = "<group>";
+		};
+		C4CFE6C764AF424F64AE0F30 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C4CFE3ECA346504E2C31E8C9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C4CFE98DF9C63886EF0DDCA9 /* CrysalisUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C4CFE7BD117BA77BF19C4193 /* Info.plist */,
+				C4CFECA7469746B5D32033B8 /* CrysalisUITests.swift */,
+			);
+			path = CrysalisUITests;
+			sourceTree = "<group>";
+		};
+		C4CFEC15E6B7B6AC89D1728E /* CrysalisTests */ = {
+			isa = PBXGroup;
+			children = (
+				C4CFE25F431EF3E9E9363B94 /* Info.plist */,
+				C4CFE2C67EA6C2F0B482F564 /* CrysalisTests.swift */,
+			);
+			path = CrysalisTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -3777,6 +3868,56 @@
 			productReference = B0D3600125F26C7400929564 /* TangemClip.app */;
 			productType = "com.apple.product-type.application.on-demand-install-capable";
 		};
+		C4CFE2FE4754DC4ED9B2AAAA /* CrysalisUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4CFEDD865D7440E0E80FD9F /* Build configuration list for PBXNativeTarget "CrysalisUITests" */;
+			buildPhases = (
+				C4CFE2E258A39C1AF3D1E328 /* Sources */,
+				C4CFE2FD13F6F94EAC46C2EE /* Frameworks */,
+				C4CFEB9DE6D5931CB48C98AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4CFECBCEACD66DBE96FC191 /* PBXTargetDependency */,
+			);
+			name = CrysalisUITests;
+			productName = CrysalisUITests;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		C4CFEABD56059A1B2F8CF23C /* CrysalisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4CFE23DCC3E60773F701561 /* Build configuration list for PBXNativeTarget "CrysalisTests" */;
+			buildPhases = (
+				C4CFE6B95D1CB6907570D166 /* Sources */,
+				C4CFE4D0B3C8F609F3A76F02 /* Frameworks */,
+				C4CFEB02165AE46FAA0B9671 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4CFED13C1CE0072AE11A351 /* PBXTargetDependency */,
+			);
+			name = CrysalisTests;
+			productName = CrysalisTests;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C4CFEE77754E64305F3ED09E /* Crysalis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4CFECF754DFA070C573869F /* Build configuration list for PBXNativeTarget "Crysalis" */;
+			buildPhases = (
+				C4CFE7736C11FCAB3F48E1E6 /* Sources */,
+				C4CFEF49316633D0332C813E /* Frameworks */,
+				C4CFECBDF22A8D31562004EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Crysalis;
+			productName = Crysalis;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -3785,7 +3926,7 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1150;
-				ORGANIZATIONNAME = "Tangem AG";
+				ORGANIZATIONNAME = "Synectify Pte Ltd";
 				TargetAttributes = {
 					5D3F77C124BF56D800E8695B = {
 						CreatedOnToolsVersion = 11.5;
@@ -3823,6 +3964,9 @@
 				5D3F77D724BF56DC00E8695B /* Tangem TapTests */,
 				5D3F77E224BF56DC00E8695B /* Tangem TapUITests */,
 				B0D3600025F26C7400929564 /* TangemClip */,
+				C4CFEE77754E64305F3ED09E /* Crysalis */,
+				C4CFEABD56059A1B2F8CF23C /* CrysalisTests */,
+				C4CFE2FE4754DC4ED9B2AAAA /* CrysalisUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -3897,6 +4041,29 @@
 				B0FC4A8E2630245F000444D7 /* Success.ahap in Resources */,
 				B0F735BD25F79CCD00DD348F /* Colors.xcassets in Resources */,
 				B0D3600A25F26C7600929564 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4CFEB02165AE46FAA0B9671 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4CFEB9DE6D5931CB48C98AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4CFECBDF22A8D31562004EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4CFE4257B7841F666E4530A /* Assets.xcassets in Resources */,
+				C4CFE463F4664FE402C58B8C /* Preview Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4773,6 +4940,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C4CFE2E258A39C1AF3D1E328 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4CFE8016E565F325F5599E6 /* CrysalisUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4CFE6B95D1CB6907570D166 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4CFE2A9CAA7EEE01F9F95FA /* CrysalisTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4CFE7736C11FCAB3F48E1E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4CFE68F8C7554BCD7B6578A /* CrysalisApp.swift in Sources */,
+				C4CFEBFF6A30CCABC0E7921E /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -4790,6 +4982,16 @@
 			isa = PBXTargetDependency;
 			target = B0D3600025F26C7400929564 /* TangemClip */;
 			targetProxy = B0D3601325F26C7600929564 /* PBXContainerItemProxy */;
+		};
+		C4CFECBCEACD66DBE96FC191 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4CFEE77754E64305F3ED09E /* Crysalis */;
+			targetProxy = C4CFEE57951A382B1D61C5E7 /* PBXContainerItemProxy */;
+		};
+		C4CFED13C1CE0072AE11A351 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4CFEE77754E64305F3ED09E /* Crysalis */;
+			targetProxy = C4CFED79899DCA1BDAC1257F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -4959,10 +5161,11 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Tangem Tap/Tangem Tap.entitlements";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 258;
 				DEVELOPMENT_ASSET_PATHS = "\"Tangem Tap/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = TJ448C32Q3;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Tangem Tap/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -4971,7 +5174,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 3.17;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tangem.Tangem;
+				PRODUCT_BUNDLE_IDENTIFIER = com.synectify.crysalis;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -4990,7 +5193,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 258;
 				DEVELOPMENT_ASSET_PATHS = "\"Tangem Tap/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = TJ448C32Q3;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Tangem Tap/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -4999,7 +5202,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 3.17;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tangem.Tangem;
+				PRODUCT_BUNDLE_IDENTIFIER = com.synectify.crysalis;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = RELEASE;
@@ -5110,7 +5313,7 @@
 				CURRENT_PROJECT_VERSION = 258;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_ASSET_PATHS = "";
-				DEVELOPMENT_TEAM = 4897UJ6D8C;
+				DEVELOPMENT_TEAM = TJ448C32Q3;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = TangemClip/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
@@ -5119,7 +5322,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 3.17;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tangem.Tangem.Clip;
+				PRODUCT_BUNDLE_IDENTIFIER = com.synectify.crysalis;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_INCLUDE_PATHS = "$(inherited) \"${PODS_XCFRAMEWORKS_BUILD_DIR}/Clibsodium\" $(SRCROOT)/TangemClip";
 				SWIFT_VERSION = 5.0;
@@ -5139,7 +5342,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 258;
 				DEVELOPMENT_ASSET_PATHS = "";
-				DEVELOPMENT_TEAM = 4897UJ6D8C;
+				DEVELOPMENT_TEAM = TJ448C32Q3;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = TangemClip/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
@@ -5148,7 +5351,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 3.17;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tangem.Tangem.Clip;
+				PRODUCT_BUNDLE_IDENTIFIER = com.synectify.crysalis;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_INCLUDE_PATHS = "$(inherited) \"${PODS_XCFRAMEWORKS_BUILD_DIR}/Clibsodium\" $(SRCROOT)/TangemClip";
 				SWIFT_VERSION = 5.0;
@@ -5168,7 +5371,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 258;
 				DEVELOPMENT_ASSET_PATHS = "";
-				DEVELOPMENT_TEAM = 4897UJ6D8C;
+				DEVELOPMENT_TEAM = TJ448C32Q3;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = TangemClip/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
@@ -5177,7 +5380,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 3.17;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tangem.Tangem.Clip;
+				PRODUCT_BUNDLE_IDENTIFIER = com.synectify.crysalis;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_INCLUDE_PATHS = "$(inherited) \"${PODS_XCFRAMEWORKS_BUILD_DIR}/Clibsodium\" $(SRCROOT)/TangemClip";
@@ -5261,7 +5464,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 3.17;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tangem.Tangem;
+				PRODUCT_BUNDLE_IDENTIFIER = com.synectify.crysalis;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -5312,6 +5515,404 @@
 				TEST_TARGET_NAME = "Tangem Tap";
 			};
 			name = Firebase;
+		};
+		C4CFE48BDE276D1386C8EC43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Crysalis.app/Crysalis";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = CrysalisTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.synectify.CrysalisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		C4CFE6924D7C8804120801EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = CrysalisUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.synectify.CrysalisUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Crysalis;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4CFE71802C4641CA30396A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Crysalis.app/Crysalis";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = CrysalisTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.synectify.CrysalisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4CFEA8790B96A2380B34DB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = CrysalisUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.synectify.CrysalisUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Crysalis;
+			};
+			name = Debug;
+		};
+		C4CFEB6BEE81F3CD9BCBCDBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_ASSET_PATHS = "\"Crysalis/Preview Content\"";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Crysalis/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.synectify.Crysalis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4CFEE0E51B0603A07CE2D3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_ASSET_PATHS = "\"Crysalis/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Crysalis/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.synectify.Crysalis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -5365,6 +5966,30 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		C4CFE23DCC3E60773F701561 /* Build configuration list for PBXNativeTarget "CrysalisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4CFE48BDE276D1386C8EC43 /* Debug */,
+				C4CFE71802C4641CA30396A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C4CFECF754DFA070C573869F /* Build configuration list for PBXNativeTarget "Crysalis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4CFEE0E51B0603A07CE2D3B /* Debug */,
+				C4CFEB6BEE81F3CD9BCBCDBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C4CFEDD865D7440E0E80FD9F /* Build configuration list for PBXNativeTarget "CrysalisUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4CFEA8790B96A2380B34DB1 /* Debug */,
+				C4CFE6924D7C8804120801EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
