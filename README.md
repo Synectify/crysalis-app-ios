@@ -12,6 +12,12 @@ Digital assets supported:
 * Authorized ERC20 tokens
 * Bitcoin Testnet
 * Ethereum Rinkeby
+* Litecoin
+* XRP Ledger
+* Tezos
+* RSK
+* Cardano
+* Stellar
 
 [<img src="https://upload.wikimedia.org/wikipedia/commons/0/0f/Available_on_the_App_Store_%28black%29_SVG.svg">](https://itunes.apple.com/app/crysalis/id1354868448)
 [<img src="https://upload.wikimedia.org/wikipedia/commons/c/cd/Get_it_on_Google_play.svg">](https://play.google.com/store/apps/details?id=com.crysalis.wallet)
