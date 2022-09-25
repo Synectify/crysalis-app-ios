@@ -68,3 +68,11 @@ Carthage/Build
 fastlane/test_output/
 
 fastlane/report.xml
+.idea/.name
+.idea/misc.xml
+.idea/modules.xml
+.idea/runConfigurations/Synectify_Crysalis.xml
+.idea/runConfigurations/TangemClip.xml
+.idea/tangem-app-ios.iml
+.idea/vcs.xml
+.idea/xcode.xml

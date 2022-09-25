@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		31B33C8CA6A7BDF8E74D9091 /* Pods_Tangem_TapTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30730268D19E81F373712C02 /* Pods_Tangem_TapTests.framework */; };
-		33538FDCAD790724C357BBDB /* Pods_TangemClip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53B942339EFD27C7397E9C3A /* Pods_TangemClip.framework */; };
 		5D00FC902615FA9D004626DE /* CardDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D00FC8F2615FA9D004626DE /* CardDelegate.swift */; };
 		5D00FCC72617387E004626DE /* PersonalSignHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D00FCC62617387E004626DE /* PersonalSignHandler.swift */; };
 		5D00FCCC2617389E004626DE /* SignTransactionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D00FCCB2617389E004626DE /* SignTransactionHandler.swift */; };
@@ -31,7 +29,6 @@
 		5D225CB92524B721001564A3 /* Analytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D225CB82524B721001564A3 /* Analytics.swift */; };
 		5D24A12A24FF98F1002A3BCA /* NetworkLoggerConfiguration+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D24A12924FF98F1002A3BCA /* NetworkLoggerConfiguration+.swift */; };
 		5D24A12C24FF9E3A002A3BCA /* Decimal+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D24A12B24FF9E3A002A3BCA /* Decimal+.swift */; };
-		5D2C7DAC251378CA001B29D0 /* Pods_Tangem_Tap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 13E2B49EFB622F929FD5C46A /* Pods_Tangem_Tap.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		5D383E3F24D95BA600C9BFF6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5D383E4124D95BA600C9BFF6 /* Localizable.strings */; };
 		5D384B8B24FD154C00C2C92C /* PayIDService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D384B8A24FD154C00C2C92C /* PayIDService.swift */; };
 		5D384B9124FD4E1800C2C92C /* String+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D384B9024FD4E1800C2C92C /* String+.swift */; };
@@ -94,7 +91,6 @@
 		5D9DCB06255193C30059799C /* UserPrefsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9DCB05255193C30059799C /* UserPrefsService.swift */; };
 		5D9DCB0C255199AA0059799C /* SecurityManagementViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9DCB0B255199AA0059799C /* SecurityManagementViewModel.swift */; };
 		5DA3A2F1251CB6CA009A8E08 /* SecurityManagementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA3A2F0251CB6CA009A8E08 /* SecurityManagementView.swift */; };
-		5DAC0888251391D900B73E8B /* CoreNFC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DAC08832513917F00B73E8B /* CoreNFC.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		5DB862B8252396CD00566AA0 /* DefaultSigner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DB862B7252396CD00566AA0 /* DefaultSigner.swift */; };
 		5DBBAB0824D850EA00E78F1C /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBBAB0724D850EA00E78F1C /* CircleView.swift */; };
 		5DBBAB0B24D853B600E78F1C /* Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBBAB0A24D853B600E78F1C /* Color+.swift */; };
@@ -623,7 +619,6 @@
 		B0F62C5025DE4EC9005C8BA0 /* MailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F62C4F25DE4EC9005C8BA0 /* MailView.swift */; };
 		B0F62C5525DE4F6B005C8BA0 /* DeviceInfoProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F62C5425DE4F6B005C8BA0 /* DeviceInfoProvider.swift */; };
 		B0F7359025F788DD00DD348F /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0F7358F25F788DD00DD348F /* CardView.swift */; };
-		B0F735A525F78FCC00DD348F /* CoreNFC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DAC08832513917F00B73E8B /* CoreNFC.framework */; };
 		B0F735AE25F7932200DD348F /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A0A19025822EFF005FC94D /* Storage.swift */; };
 		B0F735B825F7943A00DD348F /* StorageType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B082E922255A8EF000A0CEA9 /* StorageType.swift */; };
 		B0F735BD25F79CCD00DD348F /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DBBAB0C24D8547F00E78F1C /* Colors.xcassets */; };
@@ -735,16 +730,15 @@
 		B0FC4AC626302460000444D7 /* AnimKeyPaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FC4A142630245F000444D7 /* AnimKeyPaths.swift */; };
 		B0FC4AC826302460000444D7 /* TangemSdkButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FC4A172630245F000444D7 /* TangemSdkButton.swift */; };
 		B0FF8815264AABCD003E000A /* TokenIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FF8814264AABCD003E000A /* TokenIconView.swift */; };
-		C4CFE2A9CAA7EEE01F9F95FA /* CrysalisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CFE2C67EA6C2F0B482F564 /* CrysalisTests.swift */; };
-		C4CFE4257B7841F666E4530A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4CFE0FFA26B9A04950504B9 /* Assets.xcassets */; };
-		C4CFE463F4664FE402C58B8C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4CFE3ECA346504E2C31E8C9 /* Preview Assets.xcassets */; };
+		C4CFE0F9E1FEEE44B8F0A711 /* Pods_TangemClip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4CFE744FD81719E7D6F7AEF /* Pods_TangemClip.framework */; };
 		C4CFE686C9F62BD707CE057F /* config_dev.json in Resources */ = {isa = PBXBuildFile; fileRef = C4CFE84FD3DBFE4AF6A0FCA7 /* config_dev.json */; };
-		C4CFE68F8C7554BCD7B6578A /* CrysalisApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CFEB4B5B20E37762038CD9 /* CrysalisApp.swift */; };
-		C4CFE8016E565F325F5599E6 /* CrysalisUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CFECA7469746B5D32033B8 /* CrysalisUITests.swift */; };
+		C4CFE6CD3BE8941E680CAC14 /* Pods_Tangem_Tap_Tangem_TapUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4CFEA5987EC15FF1DEAF67B /* Pods_Tangem_Tap_Tangem_TapUITests.framework */; };
+		C4CFE76C23CA3B27EE0915D2 /* Pods_Tangem_Tap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4CFE6E22D1EBF00FBA0309F /* Pods_Tangem_Tap.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		C4CFE825743ADAB69587F118 /* CoreNFC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4CFEE162D869D0A4EB87E32 /* CoreNFC.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		C4CFE9E989A31DCE66A0A42A /* Pods_Tangem_TapTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4CFE4D622F205E26233E858 /* Pods_Tangem_TapTests.framework */; };
 		C4CFEB8F5629F2A22F8E792D /* issuers.json in Resources */ = {isa = PBXBuildFile; fileRef = C4CFE809F2EB6F694BAB7C72 /* issuers.json */; };
-		C4CFEBFF6A30CCABC0E7921E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4CFE5843831DA3BF5C8A92C /* ContentView.swift */; };
+		C4CFEED49D6A84E07A0B7228 /* CoreNFC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4CFEE162D869D0A4EB87E32 /* CoreNFC.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		C4CFEF7D04F5B3B20F6F25C2 /* config_prod.json in Resources */ = {isa = PBXBuildFile; fileRef = C4CFE94EF5FB66A295EE7484 /* config_prod.json */; };
-		E7B877C2D1F9ECC207398075 /* Pods_Tangem_Tap_Tangem_TapUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADB806044AD0786B3B757F4E /* Pods_Tangem_Tap_Tangem_TapUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -802,12 +796,9 @@
 /* Begin PBXFileReference section */
 		0D709A471E25878E18C71557 /* Pods-Tangem TapTests.firebase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tangem TapTests.firebase.xcconfig"; path = "Target Support Files/Pods-Tangem TapTests/Pods-Tangem TapTests.firebase.xcconfig"; sourceTree = "<group>"; };
 		113696C0CF5EE7DCF662F5E3 /* Pods-TangemClip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TangemClip.release.xcconfig"; path = "Target Support Files/Pods-TangemClip/Pods-TangemClip.release.xcconfig"; sourceTree = "<group>"; };
-		13E2B49EFB622F929FD5C46A /* Pods_Tangem_Tap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tangem_Tap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2459667052667F113C3CBF58 /* Pods-Tangem TapTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tangem TapTests.release.xcconfig"; path = "Target Support Files/Pods-Tangem TapTests/Pods-Tangem TapTests.release.xcconfig"; sourceTree = "<group>"; };
 		283A90AE90026B31E4488611 /* Pods-TangemClip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TangemClip.debug.xcconfig"; path = "Target Support Files/Pods-TangemClip/Pods-TangemClip.debug.xcconfig"; sourceTree = "<group>"; };
-		30730268D19E81F373712C02 /* Pods_Tangem_TapTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tangem_TapTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		453C6E5BE6FDD4AA1524167D /* Pods-Tangem Tap-Tangem TapUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tangem Tap-Tangem TapUITests.debug.xcconfig"; path = "Target Support Files/Pods-Tangem Tap-Tangem TapUITests/Pods-Tangem Tap-Tangem TapUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		53B942339EFD27C7397E9C3A /* Pods_TangemClip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TangemClip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5734FA7164BED2A10B626828 /* Pods-Tangem Tap.firebase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tangem Tap.firebase.xcconfig"; path = "Target Support Files/Pods-Tangem Tap/Pods-Tangem Tap.firebase.xcconfig"; sourceTree = "<group>"; };
 		5D00FC8F2615FA9D004626DE /* CardDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDelegate.swift; sourceTree = "<group>"; };
 		5D00FCC62617387E004626DE /* PersonalSignHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalSignHandler.swift; sourceTree = "<group>"; };
@@ -892,7 +883,6 @@
 		5D9DCB05255193C30059799C /* UserPrefsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPrefsService.swift; sourceTree = "<group>"; };
 		5D9DCB0B255199AA0059799C /* SecurityManagementViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityManagementViewModel.swift; sourceTree = "<group>"; };
 		5DA3A2F0251CB6CA009A8E08 /* SecurityManagementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityManagementView.swift; sourceTree = "<group>"; };
-		5DAC08832513917F00B73E8B /* CoreNFC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreNFC.framework; path = System/Library/Frameworks/CoreNFC.framework; sourceTree = SDKROOT; };
 		5DB862B7252396CD00566AA0 /* DefaultSigner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultSigner.swift; sourceTree = "<group>"; };
 		5DBBAB0724D850EA00E78F1C /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 		5DBBAB0A24D853B600E78F1C /* Color+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+.swift"; sourceTree = "<group>"; };
@@ -937,7 +927,6 @@
 		660C0A4ED84D5E9C3C8E3304 /* Pods-Tangem Tap-Tangem TapUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tangem Tap-Tangem TapUITests.release.xcconfig"; path = "Target Support Files/Pods-Tangem Tap-Tangem TapUITests/Pods-Tangem Tap-Tangem TapUITests.release.xcconfig"; sourceTree = "<group>"; };
 		6DAB43B88F12E203AB57FCC5 /* Pods-TangemClip.firebase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TangemClip.firebase.xcconfig"; path = "Target Support Files/Pods-TangemClip/Pods-TangemClip.firebase.xcconfig"; sourceTree = "<group>"; };
 		8023B4C7AB7F8F722B1B6BAA /* Pods-Tangem TapTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tangem TapTests.debug.xcconfig"; path = "Target Support Files/Pods-Tangem TapTests/Pods-Tangem TapTests.debug.xcconfig"; sourceTree = "<group>"; };
-		ADB806044AD0786B3B757F4E /* Pods_Tangem_Tap_Tangem_TapUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tangem_Tap_Tangem_TapUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B00A6F6526306B5300EF8D4F /* secp256k1_ecdh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = secp256k1_ecdh.h; sourceTree = "<group>"; };
 		B00A6F6626306B5300EF8D4F /* secp256k1_recovery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = secp256k1_recovery.h; sourceTree = "<group>"; };
 		B00A6F6726306B5300EF8D4F /* tangem_secp256k1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tangem_secp256k1.h; sourceTree = "<group>"; };
@@ -1565,18 +1554,14 @@
 		B0FF8814264AABCD003E000A /* TokenIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenIconView.swift; sourceTree = "<group>"; };
 		B9F1CD10D9C48557C2894B61 /* Pods-Tangem Tap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tangem Tap.debug.xcconfig"; path = "Target Support Files/Pods-Tangem Tap/Pods-Tangem Tap.debug.xcconfig"; sourceTree = "<group>"; };
 		BD6C9959F53AF1BAC643BEDD /* Pods-Tangem Tap-Tangem TapUITests.firebase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tangem Tap-Tangem TapUITests.firebase.xcconfig"; path = "Target Support Files/Pods-Tangem Tap-Tangem TapUITests/Pods-Tangem Tap-Tangem TapUITests.firebase.xcconfig"; sourceTree = "<group>"; };
-		C4CFE0FFA26B9A04950504B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C4CFE25F431EF3E9E9363B94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
-		C4CFE2C67EA6C2F0B482F564 /* CrysalisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrysalisTests.swift; sourceTree = "<group>"; };
-		C4CFE3ECA346504E2C31E8C9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		C4CFE5843831DA3BF5C8A92C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		C4CFE7BD117BA77BF19C4193 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		C4CFE4D622F205E26233E858 /* Pods_Tangem_TapTests.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_Tangem_TapTests.framework; path = "../../../Library/Caches/JetBrains/AppCode2021.1/DerivedData/Tangem_Tap-cjmzzbhxjpwyqphfjutjecuvbren/Build/Products/Debug-iphonesimulator/Pods_Tangem_TapTests.framework"; sourceTree = "<group>"; };
+		C4CFE6E22D1EBF00FBA0309F /* Pods_Tangem_Tap.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_Tangem_Tap.framework; path = "../../../Library/Caches/JetBrains/AppCode2021.1/DerivedData/Tangem_Tap-cjmzzbhxjpwyqphfjutjecuvbren/Build/Products/Debug-iphonesimulator/Pods_Tangem_Tap.framework"; sourceTree = "<group>"; };
+		C4CFE744FD81719E7D6F7AEF /* Pods_TangemClip.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_TangemClip.framework; path = "../../../Library/Caches/JetBrains/AppCode2021.1/DerivedData/Tangem_Tap-cjmzzbhxjpwyqphfjutjecuvbren/Build/Products/Debug-iphonesimulator/Pods_TangemClip.framework"; sourceTree = "<group>"; };
 		C4CFE809F2EB6F694BAB7C72 /* issuers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = issuers.json; sourceTree = "<group>"; };
 		C4CFE84FD3DBFE4AF6A0FCA7 /* config_dev.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = config_dev.json; sourceTree = "<group>"; };
 		C4CFE94EF5FB66A295EE7484 /* config_prod.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = config_prod.json; sourceTree = "<group>"; };
-		C4CFEB4B5B20E37762038CD9 /* CrysalisApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrysalisApp.swift; sourceTree = "<group>"; };
-		C4CFECA7469746B5D32033B8 /* CrysalisUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrysalisUITests.swift; sourceTree = "<group>"; };
-		C4CFED832F5A2819793BEA8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		C4CFEA5987EC15FF1DEAF67B /* Pods_Tangem_Tap_Tangem_TapUITests.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_Tangem_Tap_Tangem_TapUITests.framework; path = "../../../Library/Caches/JetBrains/AppCode2021.1/DerivedData/Tangem_Tap-cjmzzbhxjpwyqphfjutjecuvbren/Build/Products/Debug-iphonesimulator/Pods_Tangem_Tap_Tangem_TapUITests.framework"; sourceTree = "<group>"; };
+		C4CFEE162D869D0A4EB87E32 /* CoreNFC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreNFC.framework; path = ../../../../../Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks/CoreNFC.framework; sourceTree = "<group>"; };
 		F3B96D298A039D2A8811CEF0 /* Pods-Tangem Tap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tangem Tap.release.xcconfig"; path = "Target Support Files/Pods-Tangem Tap/Pods-Tangem Tap.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -1585,8 +1570,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DAC0888251391D900B73E8B /* CoreNFC.framework in Frameworks */,
-				5D2C7DAC251378CA001B29D0 /* Pods_Tangem_Tap.framework in Frameworks */,
+				C4CFE825743ADAB69587F118 /* CoreNFC.framework in Frameworks */,
+				C4CFE76C23CA3B27EE0915D2 /* Pods_Tangem_Tap.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1594,7 +1579,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31B33C8CA6A7BDF8E74D9091 /* Pods_Tangem_TapTests.framework in Frameworks */,
+				C4CFE9E989A31DCE66A0A42A /* Pods_Tangem_TapTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1602,7 +1587,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7B877C2D1F9ECC207398075 /* Pods_Tangem_Tap_Tangem_TapUITests.framework in Frameworks */,
+				C4CFE6CD3BE8941E680CAC14 /* Pods_Tangem_Tap_Tangem_TapUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1610,8 +1595,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33538FDCAD790724C357BBDB /* Pods_TangemClip.framework in Frameworks */,
-				B0F735A525F78FCC00DD348F /* CoreNFC.framework in Frameworks */,
+				C4CFEED49D6A84E07A0B7228 /* CoreNFC.framework in Frameworks */,
+				C4CFE0F9E1FEEE44B8F0A711 /* Pods_TangemClip.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1639,18 +1624,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2E5061A84512B23CCB5F2E17 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				5DAC08832513917F00B73E8B /* CoreNFC.framework */,
-				13E2B49EFB622F929FD5C46A /* Pods_Tangem_Tap.framework */,
-				ADB806044AD0786B3B757F4E /* Pods_Tangem_Tap_Tangem_TapUITests.framework */,
-				30730268D19E81F373712C02 /* Pods_Tangem_TapTests.framework */,
-				53B942339EFD27C7397E9C3A /* Pods_TangemClip.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		5D00FCC52617384C004626DE /* WalletConnect */ = {
 			isa = PBXGroup;
 			children = (
@@ -1756,10 +1729,6 @@
 				B0D3600225F26C7400929564 /* TangemClip */,
 				5D3F77C324BF56D800E8695B /* Products */,
 				BBA154748909F0AB4121528D /* Pods */,
-				2E5061A84512B23CCB5F2E17 /* Frameworks */,
-				C4CFE0D3B54257A957B813A8 /* Crysalis */,
-				C4CFEC15E6B7B6AC89D1728E /* CrysalisTests */,
-				C4CFE98DF9C63886EF0DDCA9 /* CrysalisUITests */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1794,6 +1763,7 @@
 				5D3F77D024BF56DC00E8695B /* LaunchScreen.storyboard */,
 				5D3F77D324BF56DC00E8695B /* Info.plist */,
 				5D3F77CD24BF56DC00E8695B /* Preview Content */,
+				C4CFEFF06443F670C620EF35 /* Frameworks */,
 			);
 			path = "Tangem Tap";
 			sourceTree = "<group>";
@@ -3747,42 +3717,17 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		C4CFE0D3B54257A957B813A8 /* Crysalis */ = {
+		C4CFEFF06443F670C620EF35 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C4CFED832F5A2819793BEA8C /* Info.plist */,
-				C4CFE0FFA26B9A04950504B9 /* Assets.xcassets */,
-				C4CFE6C764AF424F64AE0F30 /* Preview Content */,
-				C4CFEB4B5B20E37762038CD9 /* CrysalisApp.swift */,
-				C4CFE5843831DA3BF5C8A92C /* ContentView.swift */,
+				C4CFEE162D869D0A4EB87E32 /* CoreNFC.framework */,
+				C4CFE6E22D1EBF00FBA0309F /* Pods_Tangem_Tap.framework */,
+				C4CFEA5987EC15FF1DEAF67B /* Pods_Tangem_Tap_Tangem_TapUITests.framework */,
+				C4CFE4D622F205E26233E858 /* Pods_Tangem_TapTests.framework */,
+				C4CFE744FD81719E7D6F7AEF /* Pods_TangemClip.framework */,
 			);
-			path = Crysalis;
-			sourceTree = "<group>";
-		};
-		C4CFE6C764AF424F64AE0F30 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				C4CFE3ECA346504E2C31E8C9 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		C4CFE98DF9C63886EF0DDCA9 /* CrysalisUITests */ = {
-			isa = PBXGroup;
-			children = (
-				C4CFE7BD117BA77BF19C4193 /* Info.plist */,
-				C4CFECA7469746B5D32033B8 /* CrysalisUITests.swift */,
-			);
-			path = CrysalisUITests;
-			sourceTree = "<group>";
-		};
-		C4CFEC15E6B7B6AC89D1728E /* CrysalisTests */ = {
-			isa = PBXGroup;
-			children = (
-				C4CFE25F431EF3E9E9363B94 /* Info.plist */,
-				C4CFE2C67EA6C2F0B482F564 /* CrysalisTests.swift */,
-			);
-			path = CrysalisTests;
+			name = Frameworks;
+			path = "../../crysalis-app-ios";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -4062,8 +4007,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4CFE4257B7841F666E4530A /* Assets.xcassets in Resources */,
-				C4CFE463F4664FE402C58B8C /* Preview Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4944,7 +4887,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4CFE8016E565F325F5599E6 /* CrysalisUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4952,7 +4894,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4CFE2A9CAA7EEE01F9F95FA /* CrysalisTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4960,8 +4901,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4CFE68F8C7554BCD7B6578A /* CrysalisApp.swift in Sources */,
-				C4CFEBFF6A30CCABC0E7921E /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
